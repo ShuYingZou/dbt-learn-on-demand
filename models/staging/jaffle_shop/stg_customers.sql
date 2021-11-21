@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from {{source('dbt_shuyingzou','Customers')}}
+    from dbt_shuyingzou.Orders
 )
 
 select * from customers
