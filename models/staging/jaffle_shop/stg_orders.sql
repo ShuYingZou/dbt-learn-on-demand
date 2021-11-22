@@ -4,4 +4,4 @@ select
     order_date,
     status
 
-from my-second-project-330723.dbt_shuyingzou.Orders
+from my-second-project-330723.dbt_shuyingzou.orders
