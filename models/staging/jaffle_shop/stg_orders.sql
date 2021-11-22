@@ -4,4 +4,4 @@ select
     order_date,
     status
 
-from {{ source('dbt_shuyingzou','Orders')}}
+from {{ source('dbt_shuyingzou','orders')}}
