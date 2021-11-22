@@ -1,0 +1,7 @@
+version: 2
+
+sources: 
+  - name: dbt_shuyingzou
+    database: my-second-project-330723
+    tables:
+      - name: payment

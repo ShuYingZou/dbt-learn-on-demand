@@ -8,4 +8,4 @@ select
     amount / 100 as amount,
     created as created_at
 
-from dbt_shuyingzou.payment 
+from {{source('dbt_shuyingzou','payment')}}

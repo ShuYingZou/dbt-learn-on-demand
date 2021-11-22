@@ -5,7 +5,7 @@ sources:
     description: A clone of a Postgres application database.
     database: my-second-project-330723
     tables:
-      - name: Customers
+      - name: customers
         description: Raw customers data.
         columns:
           - name: id
@@ -15,11 +15,7 @@ sources:
               - not_null
             
       - name: orders
-        loaded_at_field: _etl_loaded_at
-        freshness:
-          warn_after: {count: 12, period: hour}
-          error_after: {count: 24, period: hour}
-     
+        description: Raw orders data.
         columns:
           - name: id
             description: Primary key for orders.
