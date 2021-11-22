@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from my-second-project-330723.dbt_shuyingzou.customers
+from my-second-project-330723.dbt_shuyingzou.Customers
