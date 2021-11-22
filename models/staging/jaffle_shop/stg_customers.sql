@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from {{ ('dbt_shuyingzou', 'Customers')}}
+from {{ source('dbt_shuyingzou', 'Customers')}}

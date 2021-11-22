@@ -14,7 +14,7 @@ sources:
               - unique
               - not_null
             
-      - name: orders
+      - name: Orders
         description: Raw orders data.
         columns:
           - name: id
