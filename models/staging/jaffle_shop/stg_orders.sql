@@ -4,4 +4,4 @@ select
     order_date,
     status
 
-from my-second-project-330723.dbt_shuyingzou.orders
+from {{ source('dbt_shuyingzou', 'orders')}}
