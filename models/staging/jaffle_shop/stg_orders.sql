@@ -4,6 +4,6 @@ select
     order_date,
     status
 
+
 from my-second-project-330723.dbt_shuyingzou.orders
 
-{{ limit_data_in_dev(column_name = 'order_date', dev_days_of_data =1000) }}
